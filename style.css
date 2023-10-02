@@ -1,0 +1,342 @@
+body,main,video{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.landing{
+    background-image: url("landing.jpg");
+    background-size: cover;
+    background-position: center;
+    width:100%;
+    height:700px;
+}
+header a{
+    text-decoration: none;
+    color:yellow;
+}
+header{
+    display:flex;
+    padding:30px;
+}
+#logo{
+    flex:3;
+    font-size:xx-large;
+    font-weight: bolder;
+
+}
+#logo:hover{
+   color:greenyellow
+}
+nav{
+    flex:2;
+    display: flex;
+    font-size: xx-large;
+    
+}
+.categories{
+    flex:1;
+   
+}
+
+.about{
+    flex:1;
+}
+.content1{
+    color:yellow;
+    background-color: black;
+    width:900px;
+    border-radius: 10px;
+    position:relative;
+    top:90px;
+    left:550px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition:3s;
+    cursor: pointer;
+    font-size:30px;
+}
+.content1:hover{
+    background-color: darkkhaki;
+    color:black;
+}
+.content2{
+    font-size: xx-large;
+    position:relative;
+    top:320px;
+    left:600px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:yellowgreen;
+}
+.content3{
+     background-color:yellow;
+     border-radius: 50%;
+     display:flex;
+     justify-content: center;
+     position: relative;
+     top:40px;
+     font-size: larger;
+}
+.circle{
+    background-color:black;
+    height:100px;
+    width:100px;
+    animation-name: circle;
+    animation-duration: 7s;
+    border-radius: 50%;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    position:relative;
+    position:relative;
+    bottom:50px;
+}
+@keyframes circle{
+    0%{
+        background-color:black;
+        height:70px;
+        width:30px;
+        left:100px;
+    }
+    20%{
+        background-color:black;
+        height:70px;
+        width:30px;
+        left:200px;
+    }
+    30%{
+        background-color:black;
+        height:70px;
+        width:30px;
+        left:300px;
+    
+    }
+    60%{
+        background-color:black;
+        height:70px;
+        width:30px;
+        left:500px;
+    
+    }
+    60%{
+        background-color:black;
+        height:70px;
+        width:30px;
+        left:700px;
+    
+    }
+    80%{
+        background-color:black;
+        height:70px;
+        width:30px;
+        left:900px;
+    
+    }
+    100%{
+        background-color:black;
+        height:70px;
+        width:30px;
+        left:100px;
+    
+    }
+
+}
+.content3:hover{
+    background-color: brown;
+    color:white;
+}
+.container {
+    position: relative;
+    width: 300px;
+    position:relative;
+    top:20px;
+    left:30px;
+  }
+  
+  .image {
+    display: block;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+  }
+  
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  
+  .text {
+    color:black;
+    font-size: 30px;
+    background-color: brown;
+    border-radius: 20PX;
+    border:1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text p{
+    color:red;
+    background-color: yellow;
+  }
+.main{
+    background-color:rgb(255, 176, 72);
+    height: 500px;
+    display:flex;
+    justify-content: space-around;
+
+}
+.container1 {
+    position: relative;
+    width: 300px;
+    position:relative;
+    top:20px;
+    left:30px;
+  }
+  .image1 {
+    display: block;
+    width: 300px;
+    height: 300px;
+  }
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: white;
+  }
+  .container1:hover .overlay1 {
+    opacity: 1;
+  }
+  .text1 {
+    color:black;
+    font-size: 30px;
+    background-color: brown;
+    border-radius: 20PX;
+    border:1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .text1 p{
+    color:red;
+    background-color: yellow;
+  }
+ nav a:hover{
+    color:yellowgreen;
+ }
+ .video{
+    background-image: url("landing.jpg");
+    display:flex;
+    justify-content: space-around;
+ }
+ .mainimg{
+    padding:50px;
+    
+}
+
+ .mainimg1{
+    padding:50px;
+}
+.maintext{
+    font-size: xx-large;
+    font-weight: bolder;
+    background-color: brown;
+    color:yellow;
+    border:1px solid black;
+    border-radius:5px;
+    width:500px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    top:200px;
+    cursor:pointer;
+}
+.maintext:hover{
+    background-color: burlywood;
+    color:black;
+}
+button{
+    font-size: xx-large;
+    font-weight: bolder;
+    position:relative;
+    top:50px;
+    width:200px;
+    height:100px;
+    border-color: brown;
+
+}
+footer{
+    display:flex;
+    justify-content: space-around;
+    background-image: url("landing.jpg");
+    background-size: cover;
+    background-position: center;
+    height:700px;
+    width:auto;
+}
+footer div{
+    position: relative;
+    top:200px;
+}
+.add1 h1{
+    color:yellow;
+    font-size:60px;
+    font-weight: bolder;
+}
+.add1 p{
+    font-size: 30px;
+    color:yellow;
+}
+.add1 h3{ color:yellow;
+    font-size:60px;
+    font-weight: bolder;}
+    .add2 h1{
+        color:yellow;
+        font-size:60px;
+        font-weight: bolder;
+    }
+    .add2 p{
+        font-size: 30px;
+        color:yellow;
+    }
+    .add2 h3{ color:yellow;
+        font-size:60px;
+        font-weight: bolder;}
+        .add3 h1{
+            color:yellow;
+            font-size:60px;
+            font-weight: bolder;
+        }
+        .add3 p{
+            font-size: 30px;
+            color:yellow;
+        }
+        .add3 h3{ color:yellow;
+            font-size:60px;
+            font-weight: bolder;}
